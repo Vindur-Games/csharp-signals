@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.1;net10.0</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+
+        <!-- NuGet Package Metadata -->
+        <PackageId>Vindur.Signals</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Vindur Games</Authors>
+        <Company>Vindur Games</Company>
+        <Description>A C# implementation of Angular signals, enabling you to write reactive logic in .NET and Unity.</Description>
+        <Copyright>Copyright (c) 2026 Vindur Games</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/Vindur-Games/csharp-signals</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Vindur-Games/csharp-signals</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>signals;reactive;reactivity;state-management;unity</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+
+    <!-- Include README.md in the NuGet package -->
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <!-- PolySharp needed to make modern syntactic sugar backwards compatible with netstandard2.1 -->
+    <ItemGroup>
+        <PackageReference Include="PolySharp" Version="1.16.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>

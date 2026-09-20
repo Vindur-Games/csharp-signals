@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Vindur.Signals/Vindur.Signals.csproj" />
+  <Project Path="tests/Vindur.Signals.Tests/Vindur.Signals.Tests.csproj" />
+</Solution>
