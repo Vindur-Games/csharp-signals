@@ -58,3 +58,6 @@ nunit-*.xml
 
 # Junie CLI
 .junie/plans/
+
+# JetBrains Rider / ReSharper personal settings
+*.DotSettings.user
