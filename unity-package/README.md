@@ -19,7 +19,17 @@ Compatible with **Unity 6.0+**, Mono, and IL2CPP code stripping across all platf
    https://github.com/Vindur-Games/csharp-signals.git?path=unity-package
    ```
 
-For manual `Packages/manifest.json` configuration and version pinning, see the [main repository README](https://github.com/Vindur-Games/csharp-signals#unity-package-manager-upm).
+### Via `Packages/manifest.json`
+
+Add the dependency directly to your project's `Packages/manifest.json`:
+
+```json
+{
+  "dependencies": {
+    "com.vindur.signals": "https://github.com/Vindur-Games/csharp-signals.git?path=unity-package"
+  }
+}
+```
 
 ## Quick Example: MonoBehaviour Binding
 

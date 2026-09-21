@@ -1,0 +1,1 @@
+../../../src/Vindur.Signals/IEffectRef.cs

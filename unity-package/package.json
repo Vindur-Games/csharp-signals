@@ -1,0 +1,23 @@
+{
+  "name": "com.vindur.signals",
+  "displayName": "Vindur Signals",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "A lightweight, zero-boilerplate reactivity library for Unity inspired by Angular signals.",
+  "keywords": [
+    "signals",
+    "reactive",
+    "reactivity",
+    "state",
+    "state-management"
+  ],
+  "author": {
+    "name": "Vindur Games",
+    "url": "https://github.com/Vindur-Games"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vindur-Games/csharp-signals.git"
+  }
+}
